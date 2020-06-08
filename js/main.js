@@ -223,6 +223,9 @@ var mainState = {
         // Initializing buttons and game states.
         jumpButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
         jumpButton.onDown.add(updateFlappyBird, this);
+        
+        game.input.onDown.add(updateFlappyBird, this);
+        
         isButtonDown = false;
         score = 0;
         bestScore = sessionStorage.getItem('bestScore');
