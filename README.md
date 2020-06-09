@@ -11,7 +11,7 @@ This is a Flappy Bird clone, made in Javascript, using the [Phaser](https://phas
 
 You can play the game [here](https://vasilisg.github.io/FlappyBirdClone/).
 
-Use <kbd>Space</kbd> to flap and restart the game in case of losing.
+Use <kbd>Space</kbd> or <kbd>Left Mouse Click</kbd> to flap and restart the game in case of losing.
 
 ## P.S.
 Try to restrain yourself from bursting into tears (or laughs) while viewing the game's code. 
